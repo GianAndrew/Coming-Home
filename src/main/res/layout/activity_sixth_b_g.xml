@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixthBG">
+
+    <!--    <VideoView-->
+    <!--        android:id="@+id/sixthbg_video"-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="fill_parent"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentBottom="true"/>-->
+
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/sixth_bg_imagebtn"-->
+    <!--        android:layout_width="40dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:src="@drawable/setting"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:layout_marginTop="50dp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:background="@drawable/place_level"-->
+    <!--        android:layout_toEndOf="@id/sixth_bg_imagebtn"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:text="NOA HOTEL RESORT RESTO "-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="10sp"/>-->
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/sixth_bg_imagebtn"-->
+    <!--        android:background="@drawable/convo_bg"-->
+    <!--        android:layout_margin="20dp">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/txt_mayari"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:text="Mayari: "-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="16sp"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:layout_marginHorizontal="20dp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/txt_convo_sixthbg"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_below="@id/txt_mayari"-->
+    <!--            android:layout_marginHorizontal="20dp"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:layout_centerHorizontal="true"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:text="*Woooh* We arrived at last! Let’s now book 2 rooms and rest."-->
+    <!--            android:textSize="14sp"/>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_below="@id/txt_convo_sixthbg"-->
+    <!--            android:layout_alignParentEnd="true">-->
+
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_back_sixthbg"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:text="@string/back"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="12sp"/>-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_next_sixthbg"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:text="@string/next"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="12sp"-->
+    <!--                android:visibility="visible"/>-->
+
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_okay_sixthbg"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:text="@string/Okay"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="12sp"-->
+    <!--                android:visibility="gone"/>-->
+
+
+    <!--        </LinearLayout>-->
+
+    <!--    </RelativeLayout>-->
+
+    <VideoView
+        android:id="@+id/sixthbg_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <ImageButton
+        android:id="@+id/sixth_bg_imagebtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/setting" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/sixth_bg_imagebtn"
+        android:background="@drawable/place_level"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="HOTEL and RESORT"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sixth_bg_imagebtn"
+        android:layout_margin="20dp"
+        android:background="@drawable/convo_bg">
+
+        <TextView
+            android:id="@+id/txt_mayari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Mayari: "
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_convo_sixthbg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_mayari"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:lineSpacingMultiplier="1.5"
+            android:text="*Woooh* We arrived at last! Let’s now book 2 rooms and rest.\n*After booking a room*"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        -
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_convo_sixthbg"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_back_sixthbg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="@string/back"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_next_sixthbg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="@string/next"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_okay_sixthbg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="@string/Okay"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

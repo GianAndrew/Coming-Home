@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Coming Home</string>
+
+    <string name="next">Next</string>
+
+    <string name="trivia">Trivia</string>
+
+    <string name="confirm">Confirm</string>
+
+    <string name="city">City</string>
+
+    <string name="SLEX">Southern Luzon Expressway</string>
+
+    <string name="ZigzagRoad">Atimonan Zigzag Road</string>
+
+    <string name="Okay">Okay</string>
+
+    <string name="back">Back</string>
+
+</resources>

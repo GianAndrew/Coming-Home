@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".problem1">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginTop="80dp"-->
+    <!--        android:text="PROBLEM #1"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/problemquestion"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_marginTop="140dp"-->
+    <!--        android:text="What vehicle can you use to travel for roadtrips?"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="25dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p1b1"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/problemquestion"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:layout_marginTop="60dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:text="CAR" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p1b2"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@+id/p1b1"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:text="PLANE" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p1b3"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_below="@id/p1b2"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:text="BOAT" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p1b4"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/p1b3"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:text="SPACESHIP" />-->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_for_some_text"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/prob"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="PROBLEM #1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/problemquestion"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prob"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/press_start_2p"
+            android:lineSpacingMultiplier="1.8"
+            android:text="What vehicle can you use to travel for roadtrips?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/p1b1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/problemquestion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CAR"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/p1b2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/p1b1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="PLANE"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/p1b3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/p1b2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="BOAT"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/p1b4"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/p1b3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="SPACESHIP"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

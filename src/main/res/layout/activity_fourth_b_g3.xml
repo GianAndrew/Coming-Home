@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".FourthBG3">
+
+    <!--    <VideoView-->
+    <!--        android:id="@+id/fourth_bg3_video"-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="fill_parent"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentEnd="true"/>-->
+
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/btn_menu"-->
+    <!--        android:layout_width="40dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:src="@drawable/setting"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:layout_marginTop="50dp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:layout_toRightOf="@id/btn_menu"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:text="@string/ZigzagRoad"-->
+    <!--        android:gravity="center"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textSize="12sp"-->
+    <!--        android:background="@drawable/place_level"/>-->
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/btn_menu"-->
+    <!--        android:layout_margin="20dp"-->
+    <!--        android:background="@drawable/convo_bg">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/txt_mayari"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:text="Mayari: "-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="16sp"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:layout_marginHorizontal="20dp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/txt_convo_fourthbg3"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_below="@id/txt_mayari"-->
+    <!--            android:layout_marginHorizontal="20dp"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:layout_centerHorizontal="true"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:text="*Sighs* I feel better now. But, can we rest for a while? According to the map, there is a park nearby, can we stop over there and just rest for a bit?"-->
+    <!--            android:textSize="14sp"/>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/linear1"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:layout_below="@id/txt_convo_fourthbg3"-->
+    <!--            android:visibility="visible">-->
+
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_No_fourthbg3"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:text="No"-->
+    <!--                android:textSize="12sp" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_Yes_fourthbg3"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:text="YES"-->
+    <!--                android:textSize="12sp" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/linear2"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:visibility="gone"-->
+    <!--            android:layout_below="@id/txt_convo_fourthbg3">-->
+
+
+    <!--            <Button-->
+    <!--              android:id="@+id/btn_if_no_fourthbg3"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:text="No"-->
+    <!--                android:textSize="12sp" />-->
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_if_yes_fourthbg3"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:text="YES"-->
+    <!--                android:textSize="12sp" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/linear3"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_alignParentEnd="true"-->
+    <!--            android:visibility="gone"-->
+    <!--            android:layout_below="@id/txt_convo_fourthbg3">-->
+
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_back_fourthbg3"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:text="BACK"-->
+    <!--                android:textSize="12sp" />-->
+
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_okay_fourthbg3"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginEnd="10dp"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:text="OKAY"-->
+    <!--                android:visibility="visible"-->
+    <!--                android:textSize="12sp" />-->
+
+    <!--        </LinearLayout>-->
+
+
+    <!--    </RelativeLayout>-->
+
+    <VideoView
+        android:id="@+id/fourth_bg3_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/setting" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/btn_menu"
+        android:background="@drawable/place_level"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="@string/ZigzagRoad"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_menu"
+        android:layout_margin="20dp"
+        android:background="@drawable/convo_bg">
+
+        <TextView
+            android:id="@+id/txt_mayari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Mayari: "
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_convo_fourthbg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_mayari"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:lineSpacingMultiplier="1.5"
+            android:text="*Sighs* I feel better now. But, can we rest for a while? According to the map, there is a park nearby, can we stop over there and just rest for a bit?"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_convo_fourthbg3"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/btn_No_fourthbg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="No"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_Yes_fourthbg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="YES"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_convo_fourthbg3"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_if_no_fourthbg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="No"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_if_yes_fourthbg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="YES"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        -
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_convo_fourthbg3"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_back_fourthbg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="BACK"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_okay_fourthbg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="OKAY"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

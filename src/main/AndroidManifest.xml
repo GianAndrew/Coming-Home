@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sti.homecoming">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cominghome_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cominghome_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomeComing">
+        <activity android:name=".Credits"></activity>
+        <activity android:name=".EighthBG1" />
+        <activity android:name=".FourthBG4" />
+        <activity android:name=".Instructions" />
+        <activity android:name=".EndingBG" />
+        <activity android:name=".TwentyNinethBG2" />
+        <activity android:name=".TwentyNinethBG" />
+        <activity android:name=".TwentyEighthBG4" />
+        <activity android:name=".problem20" />
+        <activity android:name=".TwentyEighthBG3" />
+        <activity android:name=".problem19" />
+        <activity android:name=".TwentyEighthBG2" />
+        <activity android:name=".TwentyEighthBG" />
+        <activity android:name=".problem18" />
+        <activity android:name=".TwentySeventhBG" />
+        <activity android:name=".TwentySixthBG" />
+        <activity android:name=".TwentyFifthBG2" />
+        <activity android:name=".TriviaTwelve" />
+        <activity android:name=".problem17" />
+        <activity android:name=".TwentyFifthBG" />
+        <activity android:name=".TwentyFourBG" />
+        <activity android:name=".TwentyThirdBG" />
+        <activity android:name=".TriviaEleven" />
+        <activity android:name=".problem16" />
+        <activity android:name=".TwentySecondBG" />
+        <activity android:name=".TwentyFirstBG2" />
+        <activity android:name=".problem15" />
+        <activity android:name=".TwentyFirstBG" />
+        <activity android:name=".TwentiethBG3" />
+        <activity android:name=".TriviaTen" />
+        <activity android:name=".TwentiethBG2" />
+        <activity android:name=".problem14" />
+        <activity android:name=".TwentiethBG" />
+        <activity android:name=".NineteenthBG2" />
+        <activity android:name=".TriviaNine" />
+        <activity android:name=".problem13" />
+        <activity android:name=".NineteenthBG" />
+        <activity android:name=".EighteenthBG" />
+        <activity android:name=".SeventeenthBG2" />
+        <activity android:name=".SeventeenthBG" />
+        <activity android:name=".SixteenthBG2" />
+        <activity android:name=".TriviaEight" />
+        <activity android:name=".problem12" />
+        <activity android:name=".SixteenthBG" />
+        <activity android:name=".FifteenthBG" />
+        <activity android:name=".FourteenthBG3" />
+        <activity android:name=".FourteenthBG2" />
+        <activity android:name=".TriviaSeven" />
+        <activity android:name=".problem11" />
+        <activity android:name=".Fourteenth" />
+        <activity android:name=".ThirteenthBG2" />
+        <activity android:name=".TriviaSix" />
+        <activity android:name=".ThirteenthBG" />
+        <activity android:name=".TwelveBG" />
+        <activity android:name=".TenthBG3" />
+        <activity android:name=".problem9" />
+        <activity android:name=".problem10" />
+        <activity android:name=".TenthBG2" />
+        <activity android:name=".TenthBG" />
+        <activity android:name=".TriviaFive" />
+        <activity android:name=".problem8" />
+        <activity android:name=".NinthBG2" />
+        <activity android:name=".NinthBG" />
+        <activity android:name=".EightBG2" />
+        <activity android:name=".problem7" />
+        <activity android:name=".EighthBG" />
+        <activity android:name=".SeventhBG" />
+        <activity android:name=".SixthBG" />
+        <activity android:name=".FifthBG2" />
+        <activity android:name=".problem6" />
+        <activity android:name=".FifthBG" />
+        <activity android:name=".FourthBG3" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".TriviaFour" />
+        <activity android:name=".FourthBG" />
+        <activity android:name=".ThirdBG3" />
+        <activity android:name=".TriviaTwo" />
+        <activity android:name=".ThirdBG2" />
+        <activity android:name=".TriviaThree" />
+        <activity android:name=".FourthBG2" />
+        <activity android:name=".problem5" />
+        <activity android:name=".ThirdBG" />
+        <activity android:name=".problem4" />
+        <activity android:name=".TriviaOne" />
+        <activity android:name=".SecondBG4" />
+        <activity android:name=".problem3" />
+        <activity android:name=".SecondBG3" />
+        <activity android:name=".problem2" />
+        <activity android:name=".SecondBG2" />
+        <activity android:name=".problem1" />
+        <activity android:name=".SecondBG" />
+        <activity android:name=".NoBG" />
+        <activity android:name=".FirstBG" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".BackgroundSoundService" />
+    </application>
+
+</manifest>

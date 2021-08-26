@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".FirstBG">
+
+    <!--    <VideoView-->
+    <!--        android:id="@+id/first_bg_video"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="fill_parent"/>-->
+
+    <!--    <RelativeLayout-->
+    <!--    android:id="@+id/parentRelative"-->
+    <!--    android:background="@drawable/convo_bg"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_margin="20dp"-->
+    <!--    android:layout_below="@id/btn_menu">-->
+
+    <!--    <TextView-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:textSize="12sp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:text="Mayari:"-->
+    <!--        android:id="@+id/txt_mayari"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_below="@id/txt_mayari"-->
+    <!--        android:textSize="14sp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:text="I miss my home, and I want to go home. But I’m afraid that I can’t solve and face all the challenges along the way. Can you please accompany and help me with my journey to go back home?"-->
+    <!--        android:id="@+id/txt_convo_firstbg"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginHorizontal="20dp"/>-->
+
+    <!--    <Button-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:textSize="12sp"-->
+    <!--        android:text="@string/Okay"-->
+    <!--        android:id="@+id/btn_okay_firstbg"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:visibility="visible"-->
+    <!--        android:layout_below="@id/txt_convo_firstbg"-->
+    <!--        android:layout_alignParentEnd="true"/>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_below="@id/txt_convo_firstbg"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_alignParentEnd="true">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_no_firstbg"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="NO"-->
+    <!--            android:textSize="12sp"-->
+    <!--            android:layout_marginBottom="10dp"-->
+    <!--            android:layout_marginEnd="10dp"-->
+    <!--            android:background="@drawable/button_design"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:visibility="gone"-->
+    <!--            android:fontFamily="@font/press_start_2p" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_yes_firstbg"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="YES"-->
+    <!--            android:textSize="12sp"-->
+    <!--            android:layout_marginBottom="10dp"-->
+    <!--            android:layout_marginEnd="10dp"-->
+    <!--            android:background="@drawable/button_design"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:visibility="gone"-->
+    <!--            android:fontFamily="@font/press_start_2p" />-->
+
+    <!--    </LinearLayout>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--    <ImageButton android:layout_height="40dp"-->
+    <!--        android:layout_width="40dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:id="@+id/btn_menu"-->
+    <!--        android:src="@drawable/setting"/>-->
+
+    <!--    <TextView-->
+    <!--        android:background="@drawable/place_level"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:textSize="14sp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:text="@string/city"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_toRightOf="@id/btn_menu"/>-->
+
+    <VideoView
+        android:id="@+id/first_bg_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+
+    <RelativeLayout
+        android:id="@+id/parentRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_menu"
+        android:layout_margin="20dp"
+        android:background="@drawable/convo_bg">
+
+        <TextView
+            android:id="@+id/txt_mayari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Mayari:"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_convo_firstbg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_mayari"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:lineSpacingMultiplier="1.5"
+            android:text="I miss my home, and I want to go home. But I’m afraid that I can’t solve and face all the challenges along the way. Can you please accompany and help me with my journey to go back home?"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_okay_firstbg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_convo_firstbg"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/Okay"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_convo_firstbg"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_no_firstbg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="NO"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_yes_firstbg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="YES"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/setting" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/btn_menu"
+        android:background="@drawable/place_level"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="@string/city"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</RelativeLayout>

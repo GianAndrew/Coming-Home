@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".problem4">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/prob4"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="80dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:text="PROBLEM #4"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20dp" />-->
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="300dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/prob4"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:background="@drawable/pathway"-->
+    <!--        android:id="@+id/imageplace" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p4b1"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_below="@id/imageplace"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:text="TO LAGUNA" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p4b2"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/p4b1"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:text="TO CAVITE" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p4b3"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/p4b2"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:text="TO BATANGAS" />-->
+
+    -
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_for_some_text"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/prob4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="PROBLEM #4"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageplace"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_below="@id/prob4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/pathway" />
+
+        <Button
+            android:id="@+id/p4b1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/imageplace"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="LAGUNA"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/p4b2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/p4b1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CAVITE"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/p4b3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/p4b2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="BATANGAS"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</RelativeLayout>

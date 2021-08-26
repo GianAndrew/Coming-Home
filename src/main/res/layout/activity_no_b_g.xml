@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoBG">
+
+
+    <VideoView
+        android:id="@+id/no_bg_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_menu_nobg"
+        android:layout_margin="20dp"
+        android:background="@drawable/convo_bg">
+
+        <TextView
+            android:id="@+id/txt_mayari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Mayari:"
+            android:textColor="@color/black"
+            android:fontFamily="@font/press_start_2p"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_convo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/txt_mayari"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lineSpacingMultiplier="1.5"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/black"
+            android:text="Aw, that’s ok! I guess, it’s still not the right time to go home. By the way, thank you and sorry to disturb you. \n*walks away and she’s about to cry*"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/nobtn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:background="@drawable/button_design"
+            android:textColor="@color/white"
+            android:layout_alignBottom="@id/txt_convo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/next"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_Mainmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txt_convo"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_design"
+            android:textColor="@color/white"
+            android:fontFamily="@font/press_start_2p"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/confirm"
+            android:textSize="9sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn_menu_nobg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:src="@drawable/setting" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/press_start_2p"
+        android:layout_toRightOf="@id/btn_menu_nobg"
+        android:background="@drawable/place_level"
+        android:gravity="center"
+        android:text="@string/city"
+        android:textSize="14sp" />
+
+</RelativeLayout>

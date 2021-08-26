@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".problem20">
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/problem_txt"-->
+    <!--        android:text="PROBLEM #20"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/problem_txt_1"-->
+    <!--        android:text="Solve the riddle:"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_below="@id/problem_txt"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/problem_ques"-->
+    <!--        android:text="I am always near, but never far.-->
+    <!--I am always around, but never seen.-->
+    <!--I am often avoided, but I always catch up.-->
+    <!--I will come when your old and grey, or maybe even the very next day.-->
+    <!--I will come with cold embrace, and give you rest with a chill kiss on your face.-->
+    <!--I come in may forms whether it's irony, love, laughter, or hate.-->
+    <!--"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="15dp"-->
+    <!--        android:padding="20dp"-->
+    <!--        android:lineSpacingExtra="2dp"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:layout_below="@id/problem_txt_1"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/p20edit"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:gravity="center"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:layout_below="@id/problem_ques"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="50dp"/>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/linear_p7"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_below="@id/p20edit"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:layout_centerHorizontal="true">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_t"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_margin="5dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/button_design"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:text="t" />-->
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_e"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_margin="5dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/button_design"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:text="e" />-->
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_a"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_margin="5dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/button_design"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:text="a" />-->
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_h"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_margin="5dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/button_design"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:text="h" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_d"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_margin="5dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/button_design"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:fontFamily="@font/press_start_2p"-->
+    <!--            android:text="d" />-->
+
+    <!--    </LinearLayout>-->
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p20submit"-->
+    <!--        android:text="Submit"-->
+    <!--        android:layout_below="@id/linear_p7"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="50dp" />-->
+
+    -
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_for_some_text"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/problem_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="PROBLEM #20"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ScrollView
+            android:id="@+id/vieeew"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/problem_txt">
+
+            <TextView
+                android:id="@+id/problem_ques"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/press_start_2p"
+                android:lineSpacingMultiplier="1.8"
+                android:padding="20dp"
+                android:text="I am always near, but never far. I am always around, but never seen. I am often avoided, but I always catch up. I will come when your old and grey, or maybe even the very next day. I will come with cold embrace, and give you rest with a chill kiss on your face. I come in may forms whether it's irony, love, laughter, or hate."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/p20edit"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/vieeew"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_p7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p20edit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_t"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="t"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_e"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="e"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_a"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="a"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_h"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="h"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_d"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_design"
+                android:fontFamily="@font/press_start_2p"
+                android:text="d"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/p20submit"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/linear_p7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Submit"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

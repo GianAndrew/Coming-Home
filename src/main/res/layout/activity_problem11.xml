@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".problem11">
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView2"-->
+    <!--        android:layout_marginTop="80dp"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="PROBLEM #11"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:layout_centerHorizontal="true"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:text="What is the total expenses if Fish ball costs P1 per 2 pieces, Kwek Kwek costs P2.5 each, Kikiam costs P5 per 4 pieces, Squid ball cost P10 for 4 pieces and 2 samalamig cost P20? "-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="18dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_below="@id/textView2" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/p11answer"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:text=""-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:layout_below="@id/textView"/>-->
+
+    <!--    <TableLayout-->
+    <!--        android:id="@+id/tableLayout3"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/p11answer"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView">-->
+
+    <!--        <TableRow-->
+    <!--            android:layout_margin="5dp"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent">-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b1"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="1" />-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b2"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="2" />-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b3"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="3" />-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b4"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="4" />-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b5"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="5" />-->
+    <!--        </TableRow>-->
+
+    <!--        <TableRow-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_margin="5dp"-->
+    <!--            android:layout_height="match_parent">-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b6"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="6" />-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b7"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="7" />-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b8"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="8" />-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b9"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="9" />-->
+
+    <!--            <Button-->
+    <!--                android:background="@drawable/button_design"-->
+    <!--                android:fontFamily="@font/press_start_2p"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:id="@+id/p11b0"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_margin="5dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="0" />-->
+    <!--        </TableRow>-->
+
+    <!--    </TableLayout>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p11confirm"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        android:text="CONFIRM"-->
+    <!--        android:layout_below="@id/tableLayout3"-->
+    <!--        android:layout_centerHorizontal="true"/>-->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_for_some_text"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="PROBLEM #11"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_below="@id/textView2">
+
+            <TextView
+                android:id="@+id/problem_ques"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/press_start_2p"
+                android:lineSpacingMultiplier="1.8"
+                android:padding="20dp"
+                android:text="Mayari bought 2 sets of 10 pieces fishballs, 5 pieces of kwek-kwek, 10 pieces of kikiam, and 4 pieces squidballs. Also, 2 orders of samalamig. What is the total expenses if Fish ball = P1 per 2 pcs Kwek Kwek = P2.5 each Kikiam = P5 pre 4 pcs Squid ball = P10 for 4 pcs and, samalamig = P20?"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/p11answer"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/scroll"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:gravity="center"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p11answer"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p11answer">
+
+
+            -
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/p11b1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="1"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/p11b2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="2"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/p11b3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="3"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/p11b4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="4"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/p11b5"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="5"
+                    android:textColor="@color/white" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/p11b6"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="6"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/p11b7"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="7"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/p11b8"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="8"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/p11b9"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="9"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/p11b0"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_design"
+                    android:fontFamily="@font/press_start_2p"
+                    android:padding="20dp"
+                    android:text="0"
+                    android:textColor="@color/white" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/p11confirm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tableLayout3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CONFIRM"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".TriviaThree">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/txttrivia"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:layout_marginTop="80dp"-->
+    <!--        android:text="@string/trivia"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="30sp" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/xximage"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/txttrivia"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:src="@drawable/bitukang_manok" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtdefinition2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/xximage"-->
+    <!--        android:text="Atimonan Zigzag Road, also known as the Bitukang Manok is located in Rizal. Most of the travelers felt nauseous whenever they drive on this road, due to its curvy structure (just like the intestines of chicken)."-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:textColor="@color/black"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/confirm_button3"-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_below="@id/txtdefinition2"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:text="@string/confirm" />-->
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_for_some_text"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txttrivia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/trivia"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/xximage"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_below="@id/txttrivia"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bitukang_manok" />
+
+        <TextView
+            android:id="@+id/txtdefinition2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xximage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:lineSpacingMultiplier="1.8"
+            android:text="Atimonan Zigzag Road, also known as the Bitukang Manok is located in Rizal."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/confirm_button3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtdefinition2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/next"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/nnt_button3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtdefinition2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".problem5">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtprob"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="80dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:text="PROBLEM #5"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/quest"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:text="What medicine Mayari should take to cure her nausea? "-->
+    <!--        android:textSize="16dp"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:layout_marginTop="25dp"-->
+    <!--        android:layout_below="@id/txtprob"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:layout_marginHorizontal="30dp"/>-->
+
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/linaer"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/quest"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:gravity="center">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="80dp"-->
+    <!--            android:layout_height="80dp"-->
+    <!--            android:background="@drawable/pill2"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:layout_marginHorizontal="5dp"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="30dp" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="80dp"-->
+    <!--            android:layout_height="80dp"-->
+    <!--            android:background="@drawable/pill1"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:layout_marginHorizontal="5dp"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="30dp" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="80dp"-->
+    <!--            android:layout_height="80dp"-->
+    <!--            android:background="@drawable/pill3"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:layout_marginHorizontal="5dp"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="30dp" />-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p5b1"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_marginTop="80dp"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:layout_below="@id/linaer"-->
+    <!--        android:textSize="14dp"-->
+    <!--        android:text="Red Pill = Paracetamol" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p5b2"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:layout_below="@id/p5b1"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:textSize="14dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:text="Blue Pill = Antiemetic" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/p5b3"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_below="@id/p5b2"-->
+    <!--        android:textSize="13dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:text="Yellow Pill = Anti-Biotic" />-->
+
+    -
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_for_some_text"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtprob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="PROBLEM #5"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtprob"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:lineSpacingMultiplier="1.5"
+            android:text="What medicine should Mayari take..."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:id="@+id/linaer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quest"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_for_text"
+            android:gravity="center"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/pill2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/pill1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/pill3"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/p5b1"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/linaer"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Red Pill = Paracetamol"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/p5b2"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/p5b1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Blue Pill = Antiemetic"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/p5b3"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/p5b2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Yellow Pill = Anti-Biotic"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

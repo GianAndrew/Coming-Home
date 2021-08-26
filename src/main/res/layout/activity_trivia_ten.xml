@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".TriviaTen">
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/trivia_txt"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Trivia"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textColor="@color/black"/>-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image_trivia"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:src="@drawable/mayari_trivia"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/trivia_txt"-->
+    <!--        android:layout_marginTop="20dp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/trivia_des"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/image_trivia"-->
+    <!--        android:text="Mayari, who embodies beauty and strength, is the one-eyed lunar deity of Tagalog, Sambal and Pampangan mythology in the Philippines. She rules over the night and is the guardian over beauty, strength, war, revolution, equality and the moon."-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:lineSpacingExtra="5dp"-->
+    <!--        android:layout_marginHorizontal="30dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:textSize="15dp"-->
+    <!--        android:textColor="@color/black"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/trivia_btn_ten"-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/trivia_des"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:text="@string/Okay"-->
+    <!--        android:textSize="14dp"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:fontFamily="@font/press_start_2p"/>-->
+
+    -
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_for_some_text"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/trivia_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Trivia"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/image_trivia"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/trivia_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/mayari_trivia" />
+
+        <TextView
+            android:id="@+id/trivia_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_trivia"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/press_start_2p"
+            android:lineSpacingMultiplier="1.4"
+            android:text="Mayari, who embodies beauty and strength, is the one-eyed lunar deity of Tagalog, Sambal and Pampangan mythology in the Philippines. She rules over the night and is the guardian over beauty, strength, war, revolution, equality and the moon."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/trivia_btn_ten"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trivia_des"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/Okay"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

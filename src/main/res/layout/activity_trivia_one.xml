@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".TriviaOne">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/txttrivia"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:layout_marginTop="80dp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:text="@string/trivia"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="30sp" />-->
+
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/linear"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@id/txttrivia"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="150dp"-->
+    <!--            android:layout_height="150dp"-->
+    <!--            android:layout_marginRight="10dp"-->
+    <!--            android:src="@drawable/pandesal" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="130dp"-->
+    <!--            android:layout_height="150dp"-->
+    <!--            android:layout_marginLeft="10dp"-->
+    <!--            android:src="@drawable/kababayan" />-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtdefinition"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginHorizontal="20dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:layout_below="@id/linear"-->
+    <!--        android:lineSpacingExtra="5dp"-->
+    <!--        android:text="The “Kababayan” bread is shaped like a Filipino Native hat, meanwhile “Pandesal” is the most common bread roll in the Philippines that you can buy in almost every bakery."-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="20sp" />-->
+
+    <!--    <Button-->
+    <!--        android:layout_below="@id/txtdefinition"-->
+    <!--        android:id="@+id/btn_next"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:fontFamily="@font/press_start_2p"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--         android:layout_marginHorizontal="20dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:text="@string/confirm" />-->
+
+    -
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_for_some_text"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txttrivia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/trivia"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/breadOne"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/txttrivia"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pandesal"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/breadTwo"
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/txttrivia"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/kababayan" />
+
+        <TextView
+            android:id="@+id/txtdefinition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/breadOne"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/press_start_2p"
+            android:lineSpacingExtra="5dp"
+            android:lineSpacingMultiplier="1.5"
+            android:text="The “Kababayan” bread is shaped like a Filipino Native hat bread."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtdefinition"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="NEXT"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_conf"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtdefinition"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
